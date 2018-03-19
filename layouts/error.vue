@@ -1,13 +1,9 @@
 <template>
   <section class="container">
     <div>
-      <logo size="medium"/>
-      <div class="links">
-        <nuxt-link to="/entrepreneurs" target="_blank" class="button--green">Entrepreneurs</nuxt-link>
-        <nuxt-link to="/consumers" target="_blank" class="button--green">Consumers</nuxt-link>
-        <nuxt-link to="/supporters" target="_blank" class="button--green">Supporters</nuxt-link>
-        <nuxt-link to="/about" target="_blank" class="button--grey">About</nuxt-link>
-      </div>
+      <logo size="big"/>
+      <h1 class="subtitle">Oops</h1>
+      <p class="help">An error has occured. You can try reaching the <a href="mailto://sunson@gmail.com">webmaster</a>. Or how about filing a bug report? Or simply, <nuxt-link to="/">Return Home</nuxt-link> and try something else?</p>
     </div>
   </section>
 </template>

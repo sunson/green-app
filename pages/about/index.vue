@@ -1,11 +1,15 @@
 <template>
   <section class="container">
     <div>
-      <logo size="medium"/>
+      <logo/>
+      <h1 class="title">
+        G.R.E.E.N.
+      </h1>
+      <h2 class="subtitle">
+        Grameen Revival Entrepreneurship Empowerment Network
+      </h2>
       <div class="links">
         <nuxt-link to="/entrepreneurs" target="_blank" class="button--green">Entrepreneurs</nuxt-link>
-        <nuxt-link to="/consumers" target="_blank" class="button--green">Consumers</nuxt-link>
-        <nuxt-link to="/supporters" target="_blank" class="button--green">Supporters</nuxt-link>
         <nuxt-link to="/about" target="_blank" class="button--grey">About</nuxt-link>
       </div>
     </div>

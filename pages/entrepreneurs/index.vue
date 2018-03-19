@@ -1,13 +1,9 @@
 <template>
   <section class="container">
     <div>
-      <logo size="medium"/>
-      <div class="links">
-        <nuxt-link to="/entrepreneurs" target="_blank" class="button--green">Entrepreneurs</nuxt-link>
-        <nuxt-link to="/consumers" target="_blank" class="button--green">Consumers</nuxt-link>
-        <nuxt-link to="/supporters" target="_blank" class="button--green">Supporters</nuxt-link>
-        <nuxt-link to="/about" target="_blank" class="button--grey">About</nuxt-link>
-      </div>
+      <logo size="small"/>
+      <h1 class="title">Entrepreneurs</h1>
+      <p>Entrepreneurs are welcome to register with us. Please check back soon, we're going to launch an exciting new platform for entrepreneurs to reach out to conscious consumers.</p>
     </div>
   </section>
 </template>

@@ -1,10 +1,30 @@
 <template>
   <div>
+    <section class="nav">
+    <ul>
+      <li><nuxt-link to="/entrepreneurs">Entrepreneurs</nuxt-link></li>
+      <li><nuxt-link to="/consumers">Consumers</nuxt-link></li>
+      <li><nuxt-link to="/supporters">Supporters</nuxt-link></li>
+    </ul>
+    </section>
     <nuxt/>
   </div>
 </template>
 
 <style>
+.nav {
+        background-color: red;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 20px;
+}
 html
 {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
